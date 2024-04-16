@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Eudoxus Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.gradient-01 {
+  background-image: linear-gradient(
+    270deg,
+    hsl(295deg 76% 51%) 0%,
+    hsl(284deg 70% 73%) 26%,
+    hsl(257deg 70% 86%) 39%,
+    hsl(202deg 92% 90%) 50%,
+    hsl(215deg 77% 81%) 61%,
+    hsl(221deg 73% 70%) 74%,
+    hsl(220deg 76% 51%) 100%
+  );
+  filter: blur(125px);
+}
+
+.hero-gradient {
+  background: linear-gradient(
+    97.86deg,
+    #a509ff 0%,
+    #34acc7 53.65%,
+    #a134c7 100%
+  );
+}
+
+.gradient-02 {
+  position: absolute;
+  width: 200px;
+  height: 438px;
+  top: 0px;
+  right: 0px;
+
+  background: #7aebfb;
+  filter: blur(190px);
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.gradient-03 {
+  position: absolute;
+  width: 404px;
+  height: 800px;
+  left: 20%;
+  top: 5%;
+
+  background: rgba(149, 66, 232, 0.35);
+  filter: blur(175px);
+  transform: rotate(-114.2deg);
+}
+
+.gradient-04 {
+  position: absolute;
+  width: 304px;
+  height: 100vh;
+  left: 30%;
+  top: 10%;
+  background: rgba(45, 72, 152, 0.75);
+  filter: blur(200px);
+  transform: rotate(-53.13deg);
+}
+.map-gradient {
+  position: absolute;
+  width: 196px;
+  height: 150px;
+  background: linear-gradient(180deg,  rgba(57,68,115,0.78) 0%, rgba(57, 68, 115,0.78) 100%);
+}
+.icon-gradient{
+    position: absolute;
+    width: 135px;
+    height: 100px;
+    filter: blur(69px);
+    z-index: -1;
+    background-image: linear-gradient(to bottom, #375afb, #5559fb, #6a58fb, #7d57fa, #8d56f9, #9754f9, #a151f8, #ab4ef7, #b349f6, #bb43f4, #c23bf2, #ca33f0);
+} 
+
+.ppl{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  filter: blur(55px);
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, #f780cc, #f779c9, #f871c7, #f869c4, #f860c1, #f859be, #f851ba, #f849b7, #f840b3, #f835ae, #f728aa, #f714a5);
+}
+.ppl1{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  filter: blur(50px);
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, #b8c3e9, #bdc7ec, #c1cbee, #c6d0f1, #cbd4f3, #ced6f5, #d0d9f7, #d3dbf9, #d4dcfa, #d5ddfc, #d5defd, #d6dfff);
+}
+.ppl2{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  filter: blur(50px);
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, #f6623e, #f76744, #f86c4a, #f8704f, #f97555, #f9795a, #fa7e60, #fa8265, #fa886c, #fa8d73, #fa937a, #fa9881);
+}
+.icon-gradient2{
+  position: absolute;
+  width: 135px;
+  height: 100px;
+  filter: blur(46px);
+  z-index: -1;
+  background-image: linear-gradient(to bottom, #f780cc, #f779c9, #f871c7, #f869c4, #f860c1, #f859be, #f851ba, #f849b7, #f840b3, #f835ae, #f728aa, #f714a5);
+}
+@media only screen and (max-width: 767px) {
+  .map-gradient {
+    width: 70px;
+    height: 50px;
+  }
+  .icon-gradient, .icon-gradient2{
+    width: 50px;
+    height: 50px;
+    filter: blur(13px);
+  }
+  .ppl, .ppl1, .ppl2{
+    width: 18px;
+    height: 18px;
+    filter: blur(13px);
+  }
+  
+}
+.gradient-05 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.gradient-06{
+  width: 450.6434437837984px;
+    height: 2523.6872780816657px;
+    position: absolute;
+    top: 425px;
+    right: 2133.3543090820312px;
+    background: rgb(37,101,225);
+    background: linear-gradient(37deg, rgba(37,101,225,1) 0%, rgba(10,27,101,1) 65%, #d225e1 50%, #7aebfb 91%);
+    filter: blur(216px);
+    transform: rotate(141deg);
+
+
+}
+
+.feedback-gradient {
+  position: absolute;
+  width: 200px;
+  height: 316px;
+  left: 0px;
+  top: 0px;
+  background: #8d39a3;
+  filter: blur(175px);
+}
+
+.footer-gradient {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 37%;
+  bottom: 0;
+
+  background: #65c4fa;
+  filter: blur(150px);
+}
